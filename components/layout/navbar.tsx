@@ -22,7 +22,7 @@ import { Button } from "../ui/button";
 import Link from "next/link";
 import Image from "next/image";
 import { ToggleTheme } from "./toogle-theme";
-
+import fullLogo from "../../public/fullLogo.png"
 interface RouteProps {
   href: string;
   label: string;
@@ -135,7 +135,7 @@ export const Navbar = () => {
             <NavigationMenuContent>
               <div className="grid w-[600px] grid-cols-2 gap-5 p-4">
                 <Image
-                  src="https://avatars.githubusercontent.com/u/75042455?v=4"
+                  src={fullLogo}
                   alt="RadixLogo"
                   className="h-full w-full rounded-md object-cover"
                   width={600}
