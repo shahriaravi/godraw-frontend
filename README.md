@@ -2,7 +2,7 @@
 # ✏️ GoDraw - The Sketchy Infinite Whiteboard
 
 <div align="center">
-  <img src="public/images/gd-logo.png" alt="GoDraw Logo" width="100" />
+  <img src="https://github.com/shahriaravi/godraw-frontend/blob/main/public/images/fullLogo.png" alt="GoDraw Logo" width="100" />
   <br/>
   
   [![Made in India](https://img.shields.io/badge/Made%20in-India-orange)](https://en.wikipedia.org/wiki/Make_in_India)
@@ -75,7 +75,7 @@ Follow these steps to run the sketchiest whiteboard on your local machine:
 
 ## 📂 Project Structure
 
-
+```bash
 godraw/
 ├── app/                  # Next.js App Router pages
 │   ├── layout.tsx        # Root layout with fonts & metadata
