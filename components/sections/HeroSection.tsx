@@ -46,7 +46,7 @@ export default function HeroSection() {
   return (
     <section 
       onMouseMove={handleMouseMove}
-      className="relative min-h-screen pt-40 pb-20 overflow-hidden bg-dots flex flex-col items-center justify-start"
+      className="relative min-h-screen pt-28 pb-20 overflow-hidden bg-dots flex flex-col items-center justify-start"
     >
       <div className="absolute inset-0 z-0 pointer-events-none">
         <motion.div 
